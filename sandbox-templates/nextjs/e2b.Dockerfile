@@ -12,6 +12,8 @@ WORKDIR /home/user/nextjs-app
 
 RUN npx --yes create-next-app@15.3.3 . --yes
 
+RUN npm install tailwindcss-animate
+
 RUN npx --yes shadcn@2.6.3 init --yes -b neutral --force
 RUN npx --yes shadcn@2.6.3 add --all --yes
 
