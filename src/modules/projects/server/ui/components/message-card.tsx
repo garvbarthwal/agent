@@ -2,7 +2,7 @@
 // import { MessageRole } from "@/generated/prisma";
 import { Card } from "@/components/ui/card";
 // import { Fragment as PrismaFragment, MessageType, MessageRole } from "@/generated/prisma";
-import { Fragment as PrismaFragment, MessageType, MessageRole } from "../../../../generated/prisma";
+import { Fragment as PrismaFragment, MessageType, MessageRole } from "@/generated/prisma/client";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
 import Image from "next/image";
