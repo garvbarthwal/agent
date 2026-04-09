@@ -29,6 +29,7 @@ export function FragmentWeb({data}:Props){
                 <Button size="sm" variant="outline" onClick={onRefresh}>
                     <RefreshCcw/>
                 </Button>
+                </Hint>
                 <Hint text="Refresh" side="bottom" align="start">
                 <Button 
                 size="sm" 
@@ -41,7 +42,7 @@ export function FragmentWeb({data}:Props){
                         {data.sandboxUrl}
                     </span>
                 </Button>
-                </Hint>
+                
                 </Hint>
                 <Hint text="Open in a new tab" side="bottom" align="start">
                 <Button
