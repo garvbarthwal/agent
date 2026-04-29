@@ -6,6 +6,7 @@ import "prismjs/components/prism-jsx"
 import "prismjs/components/prism-tsx"
 import "prismjs/components/prism-typescript"
 
+// @ts-ignore: allow importing CSS for styling without type declarations
 import "./code-theme.css"
 
 interface Props{
